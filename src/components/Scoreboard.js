@@ -5,7 +5,8 @@ class Scoreboard extends React.Component {
     render(){
         return (
             <div className='scoreboard'>
-            stuff goes here
+                <h1>Scoreboard</h1>
+                <teamScore />
             </div>
         );
     }
