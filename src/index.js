@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import App from './App';
-// import Scoreboard from './components/Scoreboard';
-import './index.css';
+
+injectTapEventPlugin();
 
 ReactDOM.render(
   <App />,
-  document.getElementById('root')
+  document.getElementById('app')
 );
 
 // ReactDOM.render(
